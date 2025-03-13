@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "the-playbook",
+    "slug": "the-playbook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/the-playbook-logo-purple-background-02.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/the-playbook-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5f33e1"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.briang2401.theplaybook",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/the-playbook-logo-purple-background-02.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/the-playbook-logo-purple-background-02.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d4adca9-ecb9-4dd4-b69f-e1d21dc35d65"
+      }
+    },
+    "owner": "briang2401",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4d4adca9-ecb9-4dd4-b69f-e1d21dc35d65"
+    }
+  }
+}
